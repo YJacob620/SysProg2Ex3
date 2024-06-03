@@ -1,0 +1,4 @@
+left to do:
+    readme
+    documentation?
+    more tests?
