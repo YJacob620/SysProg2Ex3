@@ -1,3 +1,6 @@
+// ID: *****1536
+// EMAIL: yairjacob620@gmail.com
+
 #pragma once
 #include "building_slot.hpp"
 #include <stdexcept>
