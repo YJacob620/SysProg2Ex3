@@ -1,3 +1,6 @@
+// ID: *****1536
+// EMAIL: yairjacob620@gmail.com
+
 #pragma once
 #include "board.hpp"
 #include "player.hpp"
@@ -54,9 +57,10 @@
 #define DEF_DECK                                                                \
   { MONOPOL, MONOPOL, ROADBUILD, ROADBUILD, YEAROFPLENTY, YEAROFPLENTY, KNIGHT, \
     KNIGHT, KNIGHT, VICTORY, VICTORY, VICTORY, VICTORY }
-#define YOP_AMOUNT 2     // Year of Plenty resource gain amount
-#define RB_AMOUNT 2      // Road Building free roads amount
-#define KNIGHTS_FOR_VP 3 // Amount of knight cards required for a victory point
+#define YOP_AMOUNT 2        // Year of Plenty resource gain amount
+#define RB_AMOUNT 2         // Road Building free roads amount
+#define KNIGHTS_FOR_VP 3    // Amount of knight cards required for a victory point bonus
+#define KNIGHTS_VP_AMOUNT 2 // Amount of victory points aquired from knights-VP-bonus
 
 /* Trade */
 #define TRADE_RES 0
