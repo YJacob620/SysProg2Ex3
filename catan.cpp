@@ -471,7 +471,7 @@ bool catanGame::buyDevcard(const unsigned &player_id) {
        << devcard_names[new_devcard] << endl;
   if (new_devcard == KNIGHT) {
     if (checkThreeKnights(player_id)) {
-      ++victory_points[player_id];
+      victory_points[player_id] += KNIGHTS_VP_AMOUNT;
     }
   }
   else if (new_devcard == VICTORY) {
@@ -559,17 +559,17 @@ bool catanGame::finishTrade(const unsigned &player_id1,
     if (i == KNIGHT) {
       if (three_knights1) {
         if (!checkThreeKnights(player_id1)) {
-          --victory_points[player_id1];
+          victory_points[player_id1] -= KNIGHTS_VP_AMOUNT;
           if (checkThreeKnights(player_id2)) {
-            ++victory_points[player_id2];
+            victory_points[player_id2] += KNIGHTS_VP_AMOUNT;
           }
         }
       }
       else if (three_knights2) {
         if (!checkThreeKnights(player_id2)) {
-          --victory_points[player_id2];
+          victory_points[player_id2] -= KNIGHTS_VP_AMOUNT;
           if (checkThreeKnights(player_id1)) {
-            ++victory_points[player_id1];
+            victory_points[player_id1] += KNIGHTS_VP_AMOUNT;
           }
         }
       }
