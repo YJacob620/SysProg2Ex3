@@ -1,3 +1,6 @@
+// ID: *****1536
+// EMAIL: yairjacob620@gmail.com
+
 #include "catan.hpp"
 
 int main(int argc, char const *argv[]) {
