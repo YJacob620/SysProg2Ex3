@@ -1,3 +1,6 @@
+// ID: *****1536
+// EMAIL: yairjacob620@gmail.com
+
 #include "catan.hpp"
 
 const vector<string> catanGame::resource_names = RESOURCE_NAMES;
